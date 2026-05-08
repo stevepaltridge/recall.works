@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- @recall.works/site | quickstart.html | v1.1 | 2026-05-07 | added Brain in top nav | prev: v1.0 -->
+<!-- @recall.works/site | quickstart.html | v1.2 | 2026-05-08 | repo URL fix (recall-works/agent-os -> stevepaltridge/recall.works) + custom domain Cquickstart.html | prev: v1.1 -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -21,7 +21,7 @@
       <a href="hardware.html">Hardware</a>
       <a href="comparison.html">Compare</a>
       <a href="quickstart.html" class="active">Quickstart</a>
-      <a href="https://github.com/recall-works/agent-os">GitHub &rarr;</a>
+      <a href="https://github.com/stevepaltridge/recall.works">GitHub &rarr;</a>
     </nav>
   </div>
 </header>
@@ -49,16 +49,16 @@ pwsh tools/<span class="k">latest-revival.ps1</span> -N 1</pre>
 
 <section>
   <h2>Install the reference implementation</h2>
-  <p>The <a href="https://github.com/recall-works/agent-os">reference repo</a> ships a self-contained scaffold: 9 PowerShell scripts, a brain container blueprint, 4 starter memory templates, an installer, and a config file you copy from <code>config.example.json</code> and fill in.</p>
+  <p>The <a href="https://github.com/stevepaltridge/recall.works">reference repo</a> ships a self-contained scaffold: 9 PowerShell scripts, a brain container blueprint, 4 starter memory templates, an installer, and a config file you copy from <code>config.example.json</code> and fill in.</p>
   <pre class="code"><span class="c"># Windows (PowerShell 7+)</span>
-git clone https://github.com/recall-works/agent-os
+git clone https://github.com/stevepaltridge/recall.works
 cd agent-os
 Copy-Item config.example.json config.json
 <span class="c"># edit config.json — workspaceId, storage account, ceiling</span>
 pwsh ./<span class="k">bootstrap.ps1</span>
 
 <span class="c"># macOS / Linux</span>
-git clone https://github.com/recall-works/agent-os
+git clone https://github.com/stevepaltridge/recall.works
 cd agent-os
 cp config.example.json config.json
 <span class="c"># edit config.json</span>
@@ -183,7 +183,7 @@ cp config.example.json config.json
 <section>
   <h2>Where to go next</h2>
   <div class="cta-row">
-    <a class="cta primary" href="https://github.com/recall-works/agent-os">Get the code on GitHub &rarr;</a>
+    <a class="cta primary" href="https://github.com/stevepaltridge/recall.works">Get the code on GitHub &rarr;</a>
     <a class="cta ghost" href="whitepaper.html">Read the full whitepaper</a>
     <a class="cta ghost" href="architecture.html">Architecture diagrams</a>
   </div>
